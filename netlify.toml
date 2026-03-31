@@ -1,11 +1,6 @@
-# Netlify configuration for SPA routing
-# This ensures all routes are served from index.html
-
 [build]
   publish = "."
-  command = ""
 
-# Catch-all redirect for SPA routing
 [[redirects]]
   from = "/*"
   to = "/index.html"
